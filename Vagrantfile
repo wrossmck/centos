@@ -26,7 +26,7 @@ Vagrant.configure(2) do |config|
       sudo systemctl enable docker
       sudo service docker start
 
-      cd /vagrant/nanorc-master
+      cd /vagrant/nanorc
       sudo make install-global
       sudo cp /vagrant/.nanorc /home/vagrant/.nanorc
       sudo cp /vagrant/.nanorc /root/.nanorc
